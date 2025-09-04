@@ -10,7 +10,7 @@ public class gcd{
 		System.out.println("gcd using loop method : "+hcf_loop);
 		System.out.println("Time complexity : O(min(a, b))\nSpace complexity : O(1)");
 		System.out.println("gcd using euclid method : "+euclid);
-		System.out.println("Time complexity : O(min(a, b))");
+		System.out.println("Time complexity : O(log(min(a,b)))");
 		System.out.println("Space complexity (Auxiliary Space) :O(log(min(a,b))");
 		int builtin = BigInteger.valueOf(a).gcd(BigInteger.valueOf(b)).intValue();
 		System.out.println("gcd using builtin : "+builtin);
